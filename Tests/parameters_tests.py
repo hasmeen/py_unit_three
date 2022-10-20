@@ -55,7 +55,7 @@ class MyTestCase(unittest.TestCase):
         and a negative number
         :return: none
         """
-        #pass
+        # pass
 
     def test_adding_two_negatives(self):
         import sys
@@ -69,12 +69,13 @@ class MyTestCase(unittest.TestCase):
             output = out.getvalue().strip()
             assert output == "The sum of 6 and 5 is 11"
         finally:
-            sys.stdout = saved_stdout"""
+            sys.stdout = saved_stdout
+            """
         Delete the word "pass" and write a test that will make sure your function works when adding two
         negative numbers.
         :return: none
         """
-        #pass
+        # pass
 
 
 if __name__ == '__main__':
